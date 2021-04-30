@@ -1,3 +1,6 @@
+// Take a string and return a string that has all the original 
+// letters with the vowels removed.
+
 String.prototype.removeVowels = String.prototype.removeVowels || function(){
   return this.split('').filter((letter) => {
     if(letter.toLowerCase() != 'a' &&
