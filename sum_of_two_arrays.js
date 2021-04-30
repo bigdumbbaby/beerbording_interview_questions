@@ -1,3 +1,6 @@
+//Get the sum of two arrays...actually the sum of all their elements. 
+//Each array includes only integer numbers. Output is a number too.
+
 const arraySum = (array1, array2) => {
   let combinedArray = array1.concat(array2)
   let sum = 0
