@@ -1,3 +1,6 @@
+// Given two integers, write a function that
+// swaps them without using any temporary variables.
+
 function swap(x, y){
   y = String(x) + String(y)
   x = parseInt(y[1])
